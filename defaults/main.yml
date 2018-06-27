@@ -1,0 +1,4 @@
+---
+crates:
+  - hyperfine # command-line benchmarking tool  
+...
