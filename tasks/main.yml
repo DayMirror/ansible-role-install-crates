@@ -3,5 +3,5 @@
     name: fubarhouse.rust
   vars:
     rust_update: true
-    cargo_items: {{ crates }}
+    cargo_items: "{{ crates }}"
 ...
