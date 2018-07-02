@@ -2,6 +2,9 @@
   include_role:
     name: fubarhouse.rust
   vars:
+    rust_version: 1.27.0
+    build_rust_from_source: false
     rust_update: true
+    rust_install_clean: false
     cargo_items: "{{ crates }}"
 ...
